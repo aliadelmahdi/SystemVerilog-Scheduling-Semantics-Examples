@@ -19,7 +19,7 @@ The examples illustrate how SystemVerilog simulation regions execute in a time s
 ```
 ├── Examples/
 │   ├── mini_regions.sv      # Sample 1 — region visibility example (ACTIVE, INACTIVE, POSTPONED)
-│   └── apb4_tb.sv           # Sample 2 — program-block testbench (mock task + clock)
+│   └── apb4_tb.sv           # Sample 2 — program-block testbench
 │
 ├── scripts/
 │   ├── list.f               # file list
