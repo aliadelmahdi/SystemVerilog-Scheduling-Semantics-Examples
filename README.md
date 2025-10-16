@@ -40,12 +40,12 @@ The examples illustrate how SystemVerilog simulation regions execute in a time s
 
 ## Samples
 
-### Sample 1 — `mini_regions.sv`
+**Sample 1 — `mini_regions.sv`**
 
 Demonstrates visibility across scheduler regions (`ACTIVE`, `INACTIVE`, and `POSTPONED`) using `$display` and `$strobe`.
 Used in **Section III: Illustrative Example** of the paper.
 
-### Sample 2 — `apb4_tb.sv`
+**Sample 2 — `apb4_tb.sv`**
 
 Implements a simple `program`-block testbench that runs in the **reactive region**, generates a mock clock, and calls a placeholder task `send_apb4_packet`.
 Used in **Section IV: Program Blocks vs. Module Blocks in Testbench Scheduling**.
@@ -54,7 +54,7 @@ Used in **Section IV: Program Blocks vs. Module Blocks in Testbench Scheduling**
 
 ## How to Run
 
-### On Linux
+**On Linux**
 
 Run the shell script:
 
@@ -63,7 +63,7 @@ chmod +x scripts/run.sh
 ./scripts/run.sh
 ```
 
-### On Windows
+**On Windows**
 
 Double-click or run the batch script:
 
