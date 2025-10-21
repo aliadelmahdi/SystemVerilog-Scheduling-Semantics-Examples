@@ -2,9 +2,9 @@
 
 This repository contains example SystemVerilog source files from the paper **“SystemVerilog Scheduling Semantics”**.
 
-[![Zenodo record](https://img.shields.io/badge/Zenodo-17359865-blue?logo=zenodo\&style=flat)](https://zenodo.org/records/17359865) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17359865.svg)](https://doi.org/10.5281/zenodo.17359865)
+[![Zenodo record](https://img.shields.io/badge/Zenodo-17410308-blue?logo=zenodo\&style=flat)](https://zenodo.org/records/17410308) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17410308.svg)](https://doi.org/10.5281/zenodo.17410308)
 
-**Paper:** [SystemVerilog Scheduling Semantics — Zenodo record 17359865](https://zenodo.org/records/17359865)
+**Paper:** [SystemVerilog Scheduling Semantics — Zenodo record 17410308](https://zenodo.org/records/17410308)
 
 **Abstract**
 
@@ -25,14 +25,12 @@ The examples illustrate how SystemVerilog simulation regions execute in a time s
 │   ├── list.f               # file list
 │   ├── run.bat              # Windows batch script to compile & run examples
 │   ├── run.sh               # POSIX shell script to compile & run examples (Linux)
-│   └── run.tcl              # TCL script for simulator runs (tool dependent)
+│   └── run.tcl              # TCL script for simulator runs (tool dependent: Questa sim)
 │
 ├── waves/
-│   ├── run_waves.bat        # Windows batch script that runs simulation and produces waves (Windows)
+│   ├── run_waves.bat        # Windows batch script that runs simulation and produces waves
 │   ├── run.tcl              # TCL script to run waveform capture / viewer (tool dependent)
 │   └── waves.vcd            # Example VCD waveform output
-│
-└── README.md                # (this file)
 
 ```
 

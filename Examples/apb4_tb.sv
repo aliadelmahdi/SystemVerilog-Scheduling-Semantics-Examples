@@ -12,7 +12,6 @@ program apb4_tb;
     initial forever #5 pclk = ~pclk;
 
     initial forever begin
-        @(negedge pclk);
         send_apb4_packet();
     end
 
